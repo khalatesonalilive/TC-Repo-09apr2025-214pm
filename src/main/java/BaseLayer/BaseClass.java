@@ -24,6 +24,8 @@ public class BaseClass {
 		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		getDriver().manage().deleteAllCookies();
+		
+		System.out.println("Conflict Issue Statement");
 
 	}
 
